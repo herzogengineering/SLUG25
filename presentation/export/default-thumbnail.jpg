@@ -5,6 +5,6 @@
 <title>Error</title>
 </head>
 <body>
-<pre>Cannot GET /image</pre>
+<pre>Cannot GET /default-thumbnail.jpg</pre>
 </body>
 </html>

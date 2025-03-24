@@ -66,7 +66,7 @@ mit LabVIEW!
 
 --
 
-⚡ VI - Scripting aktivieren!
+⚡ VI - Scripting aktivieren
 
 --
 
@@ -106,12 +106,12 @@ https://www.ni.com/docs/en-US/bundle/labview/page/vi-scripting_2.html
 
 --
 
-## Spezifikationen
+## Spezifikation Hardware
 - Embedded Linux 🐧
 - .NET Framework
-- HTTP Interface 🌐
 - Anzahl Kanäle: 16 <br>
 - Rate: 1 MS/s (16 Bit) 🔥
+- HTTP Interface 🌐
 
 --
 
@@ -143,16 +143,36 @@ flowchart TD
   HTTP --> DELETE
   HTTP --> ...
 ```
+https://www.w3schools.com/tags/ref_httpmethods.asp
 
 --
 
-## OpenAPI
+<img src="images/404.png" alt="drawing"/>
+
+
+--
+
+## HTTP in LABVIEW
+![alt text](images/labview-http.png)
+
+--
+
+## Wo?
+![alt text](images/labview-GET.jpg)
+
+--
+
+## Wie?
+![alt text](images/labview-http-example.jpg)
+
+TypeDefs, Casting, sauberer Aufbau, OOP
+
+---
+
+<img src="images/OpenAPI_Logo.png" alt="drawing" width="400"/><br>
 *OpenAPI ist eine Spezifikation zum Erstellen von APIs, die Entwicklern ermöglicht, die Struktur ihrer APIs in einem standardisierten Format zu definieren.*
 <br>
-<img src="images/OpenAPI_Logo.png" alt="drawing" width="300"/>
-
 https://www.openapis.org/
-
 
 --
 
@@ -214,6 +234,8 @@ GET Abfrage über Teilnehmer am SLUG25
 ### Swagger Editor
 ![alt text](images/swagger-editor.jpg)
 
+192.168.33.13:5000/swagger
+
 --
 
 ### Code Generation
@@ -224,36 +246,26 @@ LabVIEW? 😩
 --
 
 ## Moving Target
-
+<br>
 <img src="images/moving-target.jpg" alt="drawing" width="600"/>
 
 
 ---
 
-## HTTP in LABVIEW
-![alt text](images/labview-http.png)
-
---
-
-## Wo?
-![alt text](images/labview-GET.jpg)
-
---
-
-## Wie?
-![alt text](images/labview-http-example.jpg)
-
-TypeDefs, Casting, sauberer Aufbau, OOP
-
----
-
-### Architektur
+### Zielarchitektur
 
 ```mermaid
 flowchart TD
-    A[HTTP Commands] <-->|API| B[Communication]
+    A[HTTP Commands lvlib] <-->|API| B[Communication lvlib]
     B <-->|HTTP| C[Hardware]
 ```
+
+--
+
+## Communication
+HTTP Interaction
+<br>
+![alt text](images/labview-http-example.jpg)
 
 --
 
@@ -283,14 +295,14 @@ flowchart TD
 
 --
 
-### VI-Dokumenation 
+### 📄 VI-Dokumenation 
 ![alt text](images/context-help.png)
 <br>
 Von swagger.json übernommen
 
 ---
 
-### Starten wir!
+### 🚀 Starten wir!
 ![alt text](images/cmd-gen-ui.png)
 
 ```mermaid
@@ -301,7 +313,7 @@ flowchart LR
 
 --
 
-### Ablauf
+### Blockdiagramm
 ![alt text](images/cmd-sequence.png)
 
 ---
@@ -447,7 +459,7 @@ Ersetzen eines Clusters
 ---
 
 ## Hinzufügen der Kommentare
-Die Kommentare "Description" sowie "Summary" sollen im VI ersichtlich sein. 
+Die Kommentare "Description" sowie "Summary" sollen im VI ersichtlich sein.
 
 ![alt text](images/add-documentation.png)
 
@@ -468,28 +480,41 @@ Die Kommentare "Description" sowie "Summary" sollen im VI ersichtlich sein.
 ## Ergebnis
 
 ![alt text](images/cmd-gen-lib.png)
-- Dauer für 100 Kommandos: 7min
-- VI - Analyzer "proofed"
-- CI/CD mit Jenkins
+<br>
+⏳ Dauer für 100 Kommandos: 7min
+<br>
+🧪VI - Analyzer "proofed"
+<br>
+♻ CI/CD mit Jenkins
 
 ---
 
-## Packed Lib in Package
+## 📕Packed Lib in Package
 
 ![alt text](images/package.jpg)
 - Spezifikation in Library Dokumentation
-- Diff in SCC
+- Libraries sind .xml Files
+- Diff wird "schön"
+
+--
+
+### Lib Doc
+![alt text](images/libdoc.jpg)
 
 ---
+
+### Fazit
+
+---
+
 
 <img src="/images/logo.png" alt="drawing" width="500"/>
 <br>
 <br>
 <img src="/images/CLA.png" alt="drawing" height="100" style="margin: 40px;">
 <img src="/images/ni_partner_badge.png" alt="drawing" height="100"style="margin: 40px;">
+<img src="/images/workers.png" alt="drawing" height="100"style="margin: 40px;">
 
 ---
 
 <img src="/images/refco.gif" alt="drawing" style="margin: 40px;">
-<br>
-<img src="/images/logo.png" alt="drawing" width="500"/>

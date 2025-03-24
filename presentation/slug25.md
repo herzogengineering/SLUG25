@@ -14,7 +14,7 @@ customTheme : "herzog-engineering"
 # VI - Skripting
 
 <br><br>
-<img src="/images/logo.png" alt="drawing" width="500"/>
+<img src="images/logo.png" alt="drawing" width="500"/>
 
 <!-- ---
 
@@ -508,13 +508,13 @@ Die Kommentare "Description" sowie "Summary" sollen im VI ersichtlich sein.
 ---
 
 
-<img src="/images/logo.png" alt="drawing" width="500"/>
+<img src="images/logo.png" alt="drawing" width="500"/>
 <br>
 <br>
-<img src="/images/CLA.png" alt="drawing" height="100" style="margin: 40px;">
-<img src="/images/ni_partner_badge.png" alt="drawing" height="100"style="margin: 40px;">
-<img src="/images/workers.png" alt="drawing" height="100"style="margin: 40px;">
+<img src="images/CLA.png" alt="drawing" height="100" style="margin: 40px;">
+<img src="images/ni_partner_badge.png" alt="drawing" height="100"style="margin: 40px;">
+<img src="images/workers.png" alt="drawing" height="100"style="margin: 40px;">
 
 ---
 
-<img src="/images/refco.gif" alt="drawing" style="margin: 40px;">
+<img src="images/refco.gif" alt="drawing" style="margin: 40px;">
